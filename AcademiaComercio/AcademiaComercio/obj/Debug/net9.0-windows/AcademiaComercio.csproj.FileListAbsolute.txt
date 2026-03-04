@@ -3,7 +3,6 @@ C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\b
 C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\bin\Debug\net9.0-windows\AcademiaComercio.runtimeconfig.json
 C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\bin\Debug\net9.0-windows\AcademiaComercio.dll
 C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\bin\Debug\net9.0-windows\AcademiaComercio.pdb
-C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\obj\Debug\net9.0-windows\AcademiaComercio.Form1.resources
 C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\obj\Debug\net9.0-windows\AcademiaComercio.csproj.GenerateResource.cache
 C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\obj\Debug\net9.0-windows\AcademiaComercio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\obj\Debug\net9.0-windows\AcademiaComercio.AssemblyInfoInputs.cache
@@ -15,3 +14,5 @@ C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\o
 C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\obj\Debug\net9.0-windows\AcademiaComercio.pdb
 C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\obj\Debug\net9.0-windows\AcademiaComercio.genruntimeconfig.cache
 C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\obj\Debug\net9.0-windows\ref\AcademiaComercio.dll
+C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\obj\Debug\net9.0-windows\AcademiaComercio.frmLogin.resources
+C:\Users\487713\Documents\GitHub\AppAcademia\AcademiaComercio\AcademiaComercio\obj\Debug\net9.0-windows\AcademiaComercio.frmMenu.resources
