@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtSenha = new TextBox();
+            txtLogin = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -38,19 +38,20 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // txtSenha
             // 
-            textBox1.Location = new Point(263, 227);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(262, 23);
-            textBox1.TabIndex = 1;
+            txtSenha.Location = new Point(263, 227);
+            txtSenha.Name = "txtSenha";
+            txtSenha.PasswordChar = '*';
+            txtSenha.Size = new Size(262, 23);
+            txtSenha.TabIndex = 1;
             // 
-            // textBox2
+            // txtLogin
             // 
-            textBox2.Location = new Point(263, 156);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(262, 23);
-            textBox2.TabIndex = 2;
+            txtLogin.Location = new Point(266, 156);
+            txtLogin.Name = "txtLogin";
+            txtLogin.Size = new Size(262, 23);
+            txtLogin.TabIndex = 0;
             // 
             // label1
             // 
@@ -93,7 +94,7 @@
             btnEntrar.Location = new Point(325, 297);
             btnEntrar.Name = "btnEntrar";
             btnEntrar.Size = new Size(153, 54);
-            btnEntrar.TabIndex = 7;
+            btnEntrar.TabIndex = 3;
             btnEntrar.Text = "Entrar";
             btnEntrar.UseVisualStyleBackColor = true;
             btnEntrar.Click += btnEntrar_Click;
@@ -108,8 +109,8 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtLogin);
+            Controls.Add(txtSenha);
             Name = "frmLogin";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -118,8 +119,8 @@
         }
 
         #endregion
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtSenha;
+        private TextBox txtLogin;
         private Label label1;
         private Label label2;
         private Label label3;
