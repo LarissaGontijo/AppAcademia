@@ -34,9 +34,9 @@
             label2 = new Label();
             label3 = new Label();
             groupBox1 = new GroupBox();
+            pictureBox1 = new PictureBox();
             textBox1 = new TextBox();
             button2 = new Button();
-            pictureBox1 = new PictureBox();
             label4 = new Label();
             button4 = new Button();
             button5 = new Button();
@@ -110,6 +110,16 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "Pesquisar";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = Color.GhostWhite;
+            pictureBox1.Image = Properties.Resources.buscarM;
+            pictureBox1.Location = new Point(373, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(31, 32);
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
+            // 
             // textBox1
             // 
             textBox1.Location = new Point(84, 3);
@@ -126,16 +136,6 @@
             button2.TabIndex = 7;
             button2.Text = "Fale com o Personal";
             button2.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.GhostWhite;
-            pictureBox1.Image = Properties.Resources.buscarM;
-            pictureBox1.Location = new Point(373, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(31, 32);
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
             // 
             // label4
             // 
@@ -187,6 +187,7 @@
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "frmMenu";
             Text = " ";
+            FormClosed += frmMenu_FormClosed;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

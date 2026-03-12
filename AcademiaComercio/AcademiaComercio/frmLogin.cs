@@ -18,11 +18,16 @@ namespace AcademiaComercio
                 frmMenu fM = new frmMenu();
                 fM.ShowDialog();
             }
-            else 
+            else
             {
                 MessageBox.Show("Usuário ou senha incorretos. Tente novamente!");
             }
 
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

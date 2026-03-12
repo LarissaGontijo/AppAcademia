@@ -35,6 +35,7 @@
             label3 = new Label();
             pictureBox1 = new PictureBox();
             btnEntrar = new Button();
+            btnSair = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -95,15 +96,26 @@
             btnEntrar.Name = "btnEntrar";
             btnEntrar.Size = new Size(153, 54);
             btnEntrar.TabIndex = 3;
-            btnEntrar.Text = "Entrar";
+            btnEntrar.Text = "Entar";
             btnEntrar.UseVisualStyleBackColor = true;
             btnEntrar.Click += btnEntrar_Click;
+            // 
+            // btnSair
+            // 
+            btnSair.Location = new Point(152, 297);
+            btnSair.Name = "btnSair";
+            btnSair.Size = new Size(153, 54);
+            btnSair.TabIndex = 7;
+            btnSair.Text = "Sair";
+            btnSair.UseVisualStyleBackColor = true;
+            btnSair.Click += btnSair_Click;
             // 
             // frmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(576, 431);
+            Controls.Add(btnSair);
             Controls.Add(btnEntrar);
             Controls.Add(pictureBox1);
             Controls.Add(label3);
@@ -111,6 +123,7 @@
             Controls.Add(label1);
             Controls.Add(txtLogin);
             Controls.Add(txtSenha);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frmLogin";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -126,5 +139,6 @@
         private Label label3;
         private PictureBox pictureBox1;
         private Button btnEntrar;
+        private Button btnSair;
     }
 }
