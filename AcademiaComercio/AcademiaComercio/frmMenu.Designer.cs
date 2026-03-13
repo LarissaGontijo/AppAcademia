@@ -31,16 +31,14 @@
             label1 = new Label();
             button1 = new Button();
             button3 = new Button();
-            label2 = new Label();
-            label3 = new Label();
-            groupBox1 = new GroupBox();
-            pictureBox1 = new PictureBox();
-            textBox1 = new TextBox();
             button2 = new Button();
-            label4 = new Label();
             button4 = new Button();
             button5 = new Button();
-            groupBox1.SuspendLayout();
+            pictureBox1 = new PictureBox();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -48,8 +46,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Haettenschweiler", 48F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(169, 9);
+            label1.ForeColor = Color.Maroon;
+            label1.Location = new Point(169, 57);
             label1.Name = "label1";
             label1.Size = new Size(317, 67);
             label1.TabIndex = 0;
@@ -58,100 +56,37 @@
             // button1
             // 
             button1.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(43, 142);
+            button1.Location = new Point(41, 145);
             button1.Name = "button1";
             button1.Size = new Size(138, 53);
             button1.TabIndex = 1;
-            button1.Text = "Monte seu Treino";
+            button1.Text = "Matrículas";
             button1.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
             button3.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(43, 357);
+            button3.Location = new Point(471, 145);
             button3.Name = "button3";
             button3.Size = new Size(138, 53);
             button3.TabIndex = 3;
             button3.Text = "Produtos";
             button3.UseVisualStyleBackColor = true;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Stencil", 15.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.ForeColor = SystemColors.ControlLightLight;
-            label2.Location = new Point(44, 98);
-            label2.Name = "label2";
-            label2.Size = new Size(259, 25);
-            label2.TabIndex = 4;
-            label2.Text = "Evolua seu resultado:";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Stencil", 15.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label3.ForeColor = SystemColors.ControlLightLight;
-            label3.Location = new Point(43, 213);
-            label3.Name = "label3";
-            label3.Size = new Size(265, 25);
-            label3.TabIndex = 5;
-            label3.Text = "Contrate um personal:";
-            // 
-            // groupBox1
-            // 
-            groupBox1.BackColor = Color.Gainsboro;
-            groupBox1.Controls.Add(pictureBox1);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(44, 258);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(413, 31);
-            groupBox1.TabIndex = 6;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Pesquisar";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.GhostWhite;
-            pictureBox1.Image = Properties.Resources.buscarM;
-            pictureBox1.Location = new Point(373, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(31, 32);
-            pictureBox1.TabIndex = 8;
-            pictureBox1.TabStop = false;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(84, 3);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(283, 26);
-            textBox1.TabIndex = 0;
-            // 
             // button2
             // 
             button2.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(222, 142);
+            button2.Location = new Point(41, 219);
             button2.Name = "button2";
             button2.Size = new Size(138, 53);
             button2.TabIndex = 7;
-            button2.Text = "Fale com o Personal";
+            button2.Text = "Clientes";
             button2.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Stencil", 15.75F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label4.ForeColor = SystemColors.ControlLightLight;
-            label4.Location = new Point(43, 312);
-            label4.Name = "label4";
-            label4.Size = new Size(190, 25);
-            label4.TabIndex = 8;
-            label4.Text = "Área do Cliente:";
             // 
             // button4
             // 
             button4.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.Location = new Point(222, 357);
+            button4.Location = new Point(180, 357);
             button4.Name = "button4";
             button4.Size = new Size(138, 53);
             button4.TabIndex = 9;
@@ -161,35 +96,86 @@
             // button5
             // 
             button5.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button5.Location = new Point(400, 357);
+            button5.Location = new Point(333, 357);
             button5.Name = "button5";
             button5.Size = new Size(138, 53);
             button5.TabIndex = 10;
             button5.Text = "SAC";
             button5.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = SystemColors.Info;
+            pictureBox1.Image = Properties.Resources.Logo;
+            pictureBox1.Location = new Point(155, 79);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(341, 299);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 11;
+            pictureBox1.TabStop = false;
+            // 
+            // button6
+            // 
+            button6.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button6.Location = new Point(471, 219);
+            button6.Name = "button6";
+            button6.Size = new Size(138, 53);
+            button6.TabIndex = 12;
+            button6.Text = "Serviços";
+            button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            button7.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button7.Location = new Point(471, 292);
+            button7.Name = "button7";
+            button7.Size = new Size(138, 53);
+            button7.TabIndex = 13;
+            button7.Text = "Faturamento";
+            button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            button8.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button8.Location = new Point(41, 292);
+            button8.Name = "button8";
+            button8.Size = new Size(138, 53);
+            button8.TabIndex = 14;
+            button8.Text = "Personal";
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Maroon;
+            label2.Location = new Point(253, 23);
+            label2.Name = "label2";
+            label2.Size = new Size(159, 22);
+            label2.TabIndex = 15;
+            label2.Text = "Seja Bem vindo!";
+            // 
             // frmMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkGreen;
+            BackColor = SystemColors.Info;
             ClientSize = new Size(657, 459);
+            Controls.Add(label2);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(label1);
             Controls.Add(button5);
             Controls.Add(button4);
-            Controls.Add(label4);
-            Controls.Add(button2);
-            Controls.Add(groupBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
             Controls.Add(button3);
+            Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(label1);
+            Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "frmMenu";
             Text = " ";
             FormClosed += frmMenu_FormClosed;
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -200,14 +186,13 @@
         private Label label1;
         private Button button1;
         private Button button3;
-        private Label label2;
-        private Label label3;
-        private GroupBox groupBox1;
-        private TextBox textBox1;
         private Button button2;
-        private PictureBox pictureBox1;
-        private Label label4;
         private Button button4;
         private Button button5;
+        private PictureBox pictureBox1;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Label label2;
     }
 }
