@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             label1 = new Label();
             button1 = new Button();
             button3 = new Button();
@@ -46,8 +47,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Haettenschweiler", 48F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.Maroon;
-            label1.Location = new Point(169, 57);
+            label1.ForeColor = Color.ForestGreen;
+            label1.Location = new Point(179, 26);
             label1.Name = "label1";
             label1.Size = new Size(317, 67);
             label1.TabIndex = 0;
@@ -56,7 +57,7 @@
             // button1
             // 
             button1.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(41, 145);
+            button1.Location = new Point(31, 119);
             button1.Name = "button1";
             button1.Size = new Size(138, 53);
             button1.TabIndex = 1;
@@ -66,7 +67,7 @@
             // button3
             // 
             button3.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(471, 145);
+            button3.Location = new Point(481, 119);
             button3.Name = "button3";
             button3.Size = new Size(138, 53);
             button3.TabIndex = 3;
@@ -76,7 +77,7 @@
             // button2
             // 
             button2.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(41, 219);
+            button2.Location = new Point(31, 210);
             button2.Name = "button2";
             button2.Size = new Size(138, 53);
             button2.TabIndex = 7;
@@ -86,7 +87,7 @@
             // button4
             // 
             button4.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.Location = new Point(180, 357);
+            button4.Location = new Point(180, 397);
             button4.Name = "button4";
             button4.Size = new Size(138, 53);
             button4.TabIndex = 9;
@@ -96,7 +97,7 @@
             // button5
             // 
             button5.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button5.Location = new Point(333, 357);
+            button5.Location = new Point(333, 397);
             button5.Name = "button5";
             button5.Size = new Size(138, 53);
             button5.TabIndex = 10;
@@ -105,9 +106,9 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = SystemColors.Info;
-            pictureBox1.Image = Properties.Resources.Logo;
-            pictureBox1.Location = new Point(155, 79);
+            pictureBox1.BackColor = SystemColors.ControlText;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(155, 93);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(341, 299);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -117,7 +118,7 @@
             // button6
             // 
             button6.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button6.Location = new Point(471, 219);
+            button6.Location = new Point(481, 210);
             button6.Name = "button6";
             button6.Size = new Size(138, 53);
             button6.TabIndex = 12;
@@ -127,7 +128,7 @@
             // button7
             // 
             button7.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button7.Location = new Point(471, 292);
+            button7.Location = new Point(481, 306);
             button7.Name = "button7";
             button7.Size = new Size(138, 53);
             button7.TabIndex = 13;
@@ -137,7 +138,7 @@
             // button8
             // 
             button8.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button8.Location = new Point(41, 292);
+            button8.Location = new Point(31, 306);
             button8.Name = "button8";
             button8.Size = new Size(138, 53);
             button8.TabIndex = 14;
@@ -148,8 +149,8 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.Maroon;
-            label2.Location = new Point(253, 23);
+            label2.ForeColor = Color.LimeGreen;
+            label2.Location = new Point(259, 6);
             label2.Name = "label2";
             label2.Size = new Size(159, 22);
             label2.TabIndex = 15;
@@ -159,7 +160,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Info;
+            BackColor = SystemColors.ControlText;
             ClientSize = new Size(657, 459);
             Controls.Add(label2);
             Controls.Add(button8);

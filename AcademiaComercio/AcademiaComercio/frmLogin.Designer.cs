@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             txtSenha = new TextBox();
             txtLogin = new TextBox();
             label1 = new Label();
@@ -42,7 +43,7 @@
             // 
             // txtSenha
             // 
-            txtSenha.Location = new Point(149, 334);
+            txtSenha.Location = new Point(139, 338);
             txtSenha.Name = "txtSenha";
             txtSenha.PasswordChar = '*';
             txtSenha.Size = new Size(262, 23);
@@ -50,7 +51,7 @@
             // 
             // txtLogin
             // 
-            txtLogin.Location = new Point(149, 268);
+            txtLogin.Location = new Point(139, 281);
             txtLogin.Name = "txtLogin";
             txtLogin.Size = new Size(262, 23);
             txtLogin.TabIndex = 0;
@@ -59,7 +60,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Impact", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DarkRed;
+            label1.ForeColor = Color.ForestGreen;
             label1.Location = new Point(134, 9);
             label1.Name = "label1";
             label1.Size = new Size(307, 43);
@@ -71,8 +72,8 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.Maroon;
-            label2.Location = new Point(149, 243);
+            label2.ForeColor = Color.Chartreuse;
+            label2.Location = new Point(139, 256);
             label2.Name = "label2";
             label2.Size = new Size(60, 22);
             label2.TabIndex = 4;
@@ -82,8 +83,8 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.Maroon;
-            label3.Location = new Point(149, 309);
+            label3.ForeColor = Color.Chartreuse;
+            label3.Location = new Point(139, 313);
             label3.Name = "label3";
             label3.Size = new Size(66, 22);
             label3.TabIndex = 5;
@@ -91,48 +92,51 @@
             // 
             // btnEntrar
             // 
+            btnEntrar.BackColor = Color.Lime;
             btnEntrar.Location = new Point(46, 377);
             btnEntrar.Name = "btnEntrar";
             btnEntrar.Size = new Size(156, 42);
             btnEntrar.TabIndex = 3;
             btnEntrar.Text = "Entar";
-            btnEntrar.UseVisualStyleBackColor = true;
+            btnEntrar.UseVisualStyleBackColor = false;
             btnEntrar.Click += btnEntrar_Click;
             // 
             // btnSair
             // 
+            btnSair.BackColor = Color.Red;
             btnSair.Location = new Point(370, 377);
             btnSair.Name = "btnSair";
             btnSair.Size = new Size(156, 42);
             btnSair.TabIndex = 7;
             btnSair.Text = "Sair";
-            btnSair.UseVisualStyleBackColor = true;
+            btnSair.UseVisualStyleBackColor = false;
             btnSair.Click += btnSair_Click;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.Logo1;
-            pictureBox1.Location = new Point(165, 60);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(150, 55);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(246, 186);
-            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.Size = new Size(266, 205);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             // 
             // button1
             // 
+            button1.BackColor = Color.LimeGreen;
             button1.Location = new Point(208, 377);
             button1.Name = "button1";
             button1.Size = new Size(156, 42);
             button1.TabIndex = 9;
             button1.Text = "Não possui cadastro? Cadastre-se!";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             // 
             // frmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Info;
+            BackColor = SystemColors.ControlText;
             ClientSize = new Size(576, 431);
             Controls.Add(button1);
             Controls.Add(btnSair);
